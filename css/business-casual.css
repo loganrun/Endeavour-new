@@ -54,9 +54,13 @@ hr {
    /*background: transparent;*/
    opacity: 0.6;
    width: 100%;
+   padding: none;
 }
 
-.navbar li { color: #000 } 
+.navbar li { 
+
+    color: #000;
+} 
 
 .navbar-brand {
     text-transform: uppercase;
@@ -133,7 +137,7 @@ footer p {
     .brand {
         display: inherit;
         margin: 0;
-        padding: 30px 0 10px;
+        padding: 8px 0 38px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -157,12 +161,12 @@ footer p {
         margin: 0;
         padding: 0 0 40px;
         text-align: center;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        /*text-shadow: 1px 1px 2px rgba(0,0,0,0.5);*/
         text-transform: uppercase;
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
-        color: #fff;
+        color: #000000;
     }
 
     .navbar {
@@ -184,7 +188,7 @@ footer p {
     }
 
     .nav>li>a {
-        padding: 35px;
+        padding: 20px;
     }
 
     .navbar-nav>li>a {
