@@ -100,14 +100,20 @@ hr {
 
 .box {
     margin-bottom: 20px;
-    padding: 15px 5px;
+    padding: 15px;
     background: #fff;
     background: rgba(255,255,255,0.9);
+}
+.box, 
+.codecamp {
+    margin-right: 3px;
+    margin-left: -3px;
+
 }
 
 .intro-text {
     text-transform: uppercase;
-    font-size: 1.25em;
+    font-size: 3.25em;
     font-weight: 400;
     letter-spacing: 1px;
 }
