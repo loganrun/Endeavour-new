@@ -6,11 +6,11 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-   /*  background: url('../img/bg.jpg') no-repeat center center fixed;
+   background:url(../img/shutpic2.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover; */
+    -o-background-size: cover; 
 }
 
 video#bgvid {
@@ -109,6 +109,10 @@ hr {
     margin-right: 3px;
     margin-left: -3px;
 
+}
+
+.box, .about{
+    opacity: 0.9;
 }
 
 .intro-text {
