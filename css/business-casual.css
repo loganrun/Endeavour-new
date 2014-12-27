@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-   background:url(../img/shutpic2.png) no-repeat center center fixed;
+   background:url(../img/shut4.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -17,7 +17,7 @@ video#bgvid {
 position: fixed; right: 0; bottom: 0;
 min-width: 100%; min-height: 100%;
 width: auto; height: auto; z-index: -100;
-background: url(polina.jpg) no-repeat;
+background: url(../img/shutpic2.png) no-repeat;
 background-size: cover;
 }
 
@@ -92,6 +92,11 @@ hr {
     font-size: 4em;
 }
 
+/*.brand-intro {
+    text-transform: uppercase;
+
+}*/
+
 .tagline-divider {
     margin: 15px auto 3px;
     max-width: 250px;
@@ -144,12 +149,36 @@ footer p {
 }
 
 .carousel-caption h1, h2 {
-        color: #000000;
+        font-size: 60px;
+        color: #fff;
+        font-weight: 700;
+        font-family: sans-serif;
     }
+
+.intro-header {
+  background-color: #808080;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 50px;
+}
+.intro-header .site-heading,
+.intro-header .post-heading,
+.intro-header .page-heading {
+  padding: 100px 0 50px;
+  color: white;
+}
+
+.signsheet {
+    
+}
 
 @media screen and (min-width:768px) {
     .brand {
-        display: inherit;
+        /*display: inherit;*/
         margin: 0;
         padding: 8px 0 38px;
         text-align: center;
@@ -187,9 +216,9 @@ footer p {
         border-radius: 0;
     }
 
-    .navbar-header {
+   /* .navbar-header {
         display: none;
-    }
+    } */
 
     .navbar {
         min-height: 0;
